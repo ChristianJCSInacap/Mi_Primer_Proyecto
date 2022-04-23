@@ -1,0 +1,103 @@
+body{font-family:Calibri;
+padding: 10px;
+}
+
+#logo{
+    height: 85px;
+    width: 85px;
+    float: left;
+}
+
+.inicio{
+    background-color: brown;
+    height: 75px;
+    text-align: right;
+}
+#espacio{
+    margin-left: 450px;
+}
+
+nav ul li{
+    display: inline;
+    padding-right: 25px;
+}
+nav ul{
+    padding-top: 15px;
+    float: left;
+}
+
+
+iframe{
+    border: 2px solid black;
+    height: 420px;
+    width: 100%;
+
+}
+
+footer{
+    border: 2px solid black;
+    text-align: center;
+}
+
+#log-box{
+    
+    height: 355px;
+    width: 555px;
+    vertical-align: middle;
+    border: 2.5px solid black;
+}
+
+#log-box div h2{
+    font-size: small;
+}
+
+button{
+    background-color: gray;
+    height: 35px;
+    width: 85px;
+    margin-top: 10px;
+    color: aliceblue;
+}
+
+.vitrina{
+    border: 2px solid black;
+    height: 370px;
+    width: 230px;
+    float: left;
+    margin: 25px;
+    background-color: rgb(155, 207, 214);
+}
+
+.vitrina nav ul{
+    list-style: none;
+    display: inline;
+}
+
+.vitrina nav ul li{
+    display: inline;
+    float: left;
+}
+
+.vitrina img{
+    border: 2px solid black;
+    height: 150px;
+    width: 100px;
+    margin-left: 28%;
+}
+
+.vitrina nav ul li input{
+    margin-top: 15px;
+}
+
+.vitrina p{
+    margin-left: 45px;
+}
+
+#log-box div input{
+    border: 2px solid black;
+}
+
+#nombrepagina{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
