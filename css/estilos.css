@@ -50,26 +50,12 @@ body{font-family:Calibri;
 }
 
 
-.noticia{
-    background-color: brown;
-    width: 96%;
+.img-not{
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
     margin: auto;
-    margin-top: 10px;
 
-}
-
-.not-img{
-    border: 2px solid;
-}
-
-.not-txt{
-    border: 2px solid;
-    height: 204px;
-}
-
-#img-4{
-    height: 200px;
-    width: 200px;
 }
 
 #datos{
@@ -90,6 +76,7 @@ body{font-family:Calibri;
     margin: auto;
     border: 2px solid black;
     text-align: center;
+    font-size: xx-large;
 }
 
 #navsuplog{
@@ -139,5 +126,37 @@ body{font-family:Calibri;
     padding-right: 50px;
     font-weight: bold;
     background-color: silver;
+}
+
+
+
+#vitrina{
+    width: 85%;
+    margin: auto;
+}
+.card{
+    border: 2px solid black;
+}
+
+.pre-nom{
+    text-align: center;
+}
+
+.txtcan{
+    width: 15%;    
+}
+
+.canprod{
+    text-align: right;
+}
+
+.img-gal{
+    text-align: center;
+}
+.card-img-top{
+    width: 150px;
+    height: 180px;
+    border: 2px solid black;
+
 
 }
