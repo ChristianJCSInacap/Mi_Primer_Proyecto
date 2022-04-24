@@ -1,10 +1,15 @@
 body{font-family:Calibri;
+    background-color: burlywood;
 }
 
-*{
-    margin: 5px;
 
+#navsup{
+    width: 96%;
+    margin: auto;
+    background-color: burlywood;
 }
+
+
 
 #logo{
     height: 85px;
@@ -13,47 +18,126 @@ body{font-family:Calibri;
 }
 
 #nom_emp{
-    padding-top: 5px;
     float: left;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.carousel{
+    width: 96%;
+    margin: auto;
+
+}
+
+.carousel .carousel-item {
+    height: 200px;
+  }
+
+.carousel-item img {
+    position: absolute;
+    object-fit:fill;
+    top: 0;
+    left: 0;
+    height: 200px;
+}
+
+
+#acerca-de{
+    width: 96%;
+    margin: auto;
+    margin-top: 10px;
+    background-color: chocolate;
+}
+
+
+.noticia{
+    background-color: brown;
+    width: 96%;
+    margin: auto;
     margin-top: 10px;
 
 }
 
-.inicio{
-    background-color: brown;
-    height: 75px;
-    text-align: right;
-
+.not-img{
+    border: 2px solid;
 }
 
-.navbar-toggler { 
-margin-left: auto;
+.not-txt{
+    border: 2px solid;
+    height: 204px;
 }
 
-nav ul li{
-    display: inline;
-}
-nav ul{
-    padding-top: 15px;
-    float: left;
+#img-4{
+    height: 200px;
+    width: 200px;
 }
 
-
-#Iframe{
-    border: 2px solid black;
-    height: 420px;
-    width: 100%;
-    text-align:center;
-    align-content: center;
+#datos{
+    background-color: burlywood;
+    margin: auto;
+    text-align: center;
 }
 
-footer{
+#foto{  
+    margin: auto;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.footer{
+    width: 96%;
+    margin: auto;
     border: 2px solid black;
     text-align: center;
 }
 
+#navsuplog{
+    width: 96%;
+    margin: auto;
+    background-color: burlywood;
+}
 
-#nombrepagina{
-    font-size: larger;
-    font-family: 'Times New Roman', Times, serif;
+#log-box{
+    width: 85%;
+    margin: auto;
+    border: 2px solid;
+    text-align: left;
+}
+
+#ini_ses{
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+#inputs{
+    width: 85%;
+    margin: auto;
+    font-weight: bold;
+}
+
+#InputEmail{
+    position: relative;
+    margin: auto;
+    border: 2px solid black;
+
+}
+#InputPassword{
+    position: relative;
+    margin: auto;
+    border: 2px solid black;
+}
+
+#btn-logbox{
+    text-align: center;
+}
+
+#btn-log{
+    color: black;       
+    border: 2px solid black;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: bold;
+    background-color: silver;
+
 }
